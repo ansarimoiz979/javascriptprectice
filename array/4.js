@@ -33,6 +33,7 @@ console.log("1-> length of the array ", arr1.length)
 //add two element to specific index in array
 // uske liye hame splice() method ke first parameter pr index dena hoga or second Parameter pr 0 denge kyuki hame new member add krna he
 // add element to 2 index
+
 arr1.splice(2, 0, 20,30);//20 or 30 ko array ke 2 index pr add krenge
 console.log("\n 2-> arr1",arr1);
 
