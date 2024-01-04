@@ -19,8 +19,9 @@ splice(startindex, deletecount, item1, item2)
 splice(startindex, deletecount, item1, item2, item3, ----- , item-N )
 
 */
-
+//case-1
 //neeche wale example me array ke start me new element add krne ka code he
+//yeh code unshift() method ki trh kam krega
 let arr = []
 console.log("1-> arr",arr);
 console.log("1-> length of the array ", arr.length)
@@ -53,7 +54,7 @@ console.log("\n6-> arr",arr);
 console.log("6-> length of the array ", arr.length)
 
 
-
+//case-2
 //neeche wale example me array ke end me new element add krne ka code he
 /*
 last me element add krne ke liye negative number dena hota he
